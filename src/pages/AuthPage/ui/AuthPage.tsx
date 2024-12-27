@@ -11,8 +11,8 @@ const AuthPage = ({className} : LoginPageProps ) => {
 
 
   return (
-    <div className={classNames(cls.logo, {}, [className])}>
-      
+    <div className={classNames(cls.wrapper, {}, [className])}>
+      auth
     </div>
   )
 }
